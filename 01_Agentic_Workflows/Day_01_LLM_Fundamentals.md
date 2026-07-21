@@ -20,3 +20,5 @@ LangChain acts as an abstraction layer for building LLM applications, solving th
 ## ⚠️ Engineering Constraints
 *   **Direct SDK Limitations:** While you can build LLM applications without LangChain by directly using the HTTP API functions of a provider SDK, doing so makes it impossible to use multiple models (like OpenAI and Anthropic) in the same conversation without writing custom parsing logic to handle their incompatible message formats.
 *   **Environment Support:** Architectural logic remains equivalent across languages, as LangChain offers the exact same functionality in both Python and JavaScript. *(For Python development, standard environments utilize `pip install notebook` for Jupyter compatibility).*
+## 💻 Code Exploration
+*   [Day_01_LangChain_Core_Functions.ipynb](./Day_01_LangChain_Core_Functions.ipynb) — Hands-on exploration of core LangChain library imports, model wrappers, and functional utilities.
